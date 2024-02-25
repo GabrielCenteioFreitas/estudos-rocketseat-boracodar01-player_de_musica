@@ -1,74 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player de Música</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./fontawesome/fontawesome.v6.5.1.all.min.css">
+    <title>Bora Codar - Player de Música - 01</title>
 </head>
 <body>
-    <main>
-        <div id="players">
-            <div class="player player-1">
-                <img src="assets/song-image.png" alt="Imagem da Música">
-                <div id="description">
-                    <h1>Acorda Devinho</h1>
-                    <h2>Banda Rocketseat</h2>
-                </div>
-                <div id="buttons">
-                    <i class="fa-solid fa-backward icons"></i>
-                    <i class="fa-solid fa-play icons"></i>
-                    <i class="fa-solid fa-forward icons"></i>
-                </div>
-                <div id="tracker">
-                    <div id="bar"></div>
-                    <div id="time">
-                        <p>03:05</p>
-                        <p>00:34</p>
-                    </div>
-                </div>
-            </div>
-            <div id="coluna-2">
-                <div class="player player-2">
-                    <div id="song-info">
-                        <img src="assets/song-image.png" alt="Imagem da Música">
-                        <div id="description">
-                            <h1>Acorda Devinho</h1>
-                            <h2>Banda Rocketseat</h2>
-                        </div>
-                    </div>
-                    <div id="buttons">
-                        <i class="fa-solid fa-backward icons"></i>
-                        <i class="fa-solid fa-play icons"></i>
-                        <i class="fa-solid fa-forward icons"></i>
-                    </div>
-                    <div id="tracker">
-                        <div id="bar"></div>
-                        <div id="time">
-                            <p>03:05</p>
-                            <p>00:34</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="player player-3">
-                    <div id="song-info">
-                        <img src="assets/song-image.png" alt="Imagem da Música">
-                        <div id="description">
-                            <h1>Acorda Devinho</h1>
-                            <h2>Banda Rocketseat</h2>
-                        </div>
-                    </div>
-                    <div id="buttons">
-                        <i class="fa-solid fa-backward icons"></i>
-                        <i class="fa-solid fa-play icons"></i>
-                        <i class="fa-solid fa-forward icons"></i>
-                    </div>                 
-                </div>
-            </div>
-        </div>
-    </main>
-    <script src="./fontawesome/fontawesome.v6.5.1.all.min.js" defer=""></script>
+    <div id="app">
+        <div id="player-1" class="player"></div>
+        <div id="player-2" class="player"></div>
+        <div id="player-3" class="player"></div>
+    </div>
 </body>
 </html>
