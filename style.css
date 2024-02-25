@@ -12,6 +12,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #0F0D13;
 }
 
 main {
@@ -21,14 +22,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: #0F0D13;
 }
 
 #players {
     max-width: 65.7rem;
     width: 100%;
-    height: 50rem;
 
     display: grid;
     grid-template-columns: 26.7rem 35.8rem;
@@ -117,4 +115,22 @@ h2{
 .player-2 img, .player-3 img {
     width: 8.4rem;
     height: 8.4rem;
+}
+
+
+@media(max-width: 680px){
+    #players {
+        display: grid;
+        grid-template-columns: auto;
+
+        max-width: 270px;
+    }
+    main {
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+    #coluna-2 .player img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
 }
