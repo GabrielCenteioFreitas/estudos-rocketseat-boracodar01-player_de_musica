@@ -19,9 +19,9 @@
 </p>
 
 <p align="center">
-  <img alt="Imagem do projeto." src=".github/Player_de_Musica.png">
+  <img alt="Imagem do projeto." src=".github/preview01.jpg" width="800px">
 </p>
-<h4 align="right">
+<h4 align="center">
   
   [GitHub Pages](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar01-player_de_musica/)
 </h4>
