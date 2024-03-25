@@ -1,4 +1,4 @@
-<h1 align="center">BoraCodar - Desafio 01</h1>
+<h1 align="center">BoraCodar - Desafio 01 - Music Player</h1>
 
 <p align="center">
   <a alt="HTML5">
@@ -23,7 +23,7 @@
 </p>
 <h4 align="center">
   
-  [GitHub Pages](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar01-player_de_musica/)
+  [Ver projeto](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar01-player_de_musica/)
 </h4>
 <br>
 
@@ -40,6 +40,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Projeto de um Player de Música desenvolvido a partir do Desafio 01 do evento "BoraCodar" da Rocketseat com o objetivo de treinar e aprimorar habilidades.
+
+Caso queira ver todos os desafios do evento clique [aqui](https://github.com/GabrielCenteioFreitas/estudos-rocketseat-boracodar).
 
 ## 🔖 Layout
 
